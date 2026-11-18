@@ -1,9 +1,11 @@
 # Data Visualization — Coursework
 
-Assignments and the final project from the **Data Visualization** course
-(M.Sc. Data Science, 1402-1). The work is a mix of Tableau workbooks (`.twbx`,
-open with [Tableau Public](https://public.tableau.com/app/discover) or Tableau
-Desktop) and Jupyter notebooks for the written and Python parts.
+Assignments, the final project and the lecture slides from the **Data
+Visualization** course (M.Sc. Data Science, 1402-1). The work is a mix of
+Tableau workbooks (`.twbx`, open with [Tableau Public](https://public.tableau.com/app/discover)
+or Tableau Desktop) and Jupyter notebooks for the written and Python parts.
+
+## Assignments and project
 
 | Folder | Topic |
 |---|---|
@@ -14,13 +16,41 @@ Desktop) and Jupyter notebooks for the written and Python parts.
 | [`HW5`](HW5) | *Dognition*, unaggregated: cleaning, zip-code correction, analysis |
 | [`project`](project) | Final project report: *dunnhumby — The Complete Journey* retail data |
 
-## Large files
+Each folder has the assignment brief (`.pdf`/`.docx`), the course data and my
+solution.
 
-Not in git, kept on Google Drive under `data-visualization-coursework/`:
+## Lecture slides
 
-- the raw Dognition data for HW5 (`dognition_data_no_aggregation*.csv/xlsx`, 20–48 MB each)
-- the final-project Tableau workbook (55 MB)
-- lecture slides, the course's sample Tableau workbooks and the reference book
+[`lectures/`](lectures):
 
-The lecture slides and book were removed from this public repository because
-they are not mine to redistribute.
+| File | Topic |
+|---|---|
+| `00-course-outline.pdf` | Course outline |
+| `01-data-science-lifecycle.pdf` | The data science lifecycle |
+| `02-statistical-charts.pdf` | Statistical charts |
+| `03-visual-design-principles.pdf` | Visual design principles |
+| `04-preattentive-attributes.pdf` | Preattentive attributes |
+| `05-designer-mindset.pdf` | The designer mindset |
+| `06-graph-visualization.pdf` | Graph visualization |
+
+[`lectures/tableau-examples/`](lectures/tableau-examples) has the Tableau
+workbooks shown in class (John Snow's 1854 cholera map, countries).
+
+## Files on Google Drive
+
+Two files are larger than 30 MB, so they live in a
+[shared Google Drive folder](https://drive.google.com/drive/folders/1QsKek_-OtkjGOL7szUPKim5g9PJmNFe5)
+instead of here:
+
+| File | Used in | Download |
+|---|---|---|
+| `dognition_data_no_aggregation.csv` (48 MB, zipped to 4 MB) | HW5 | [hw5_dognition_data_no_aggregation.csv.zip](https://drive.google.com/file/d/1f-8Hb0Z1To_q60vc3lIXmIkoXLrVLjvE/view) |
+| `dunhumbly's The Complete Journey.twbx` (55 MB) | project | [Drive folder](https://drive.google.com/drive/folders/1QsKek_-OtkjGOL7szUPKim5g9PJmNFe5) |
+
+The same data is in this repository as Excel files
+(`HW5/dognition_data_no_aggregation*.xlsx`).
+
+## Reading
+
+- Cole Nussbaumer Knaflic — *Storytelling with Data: A Data Visualization Guide
+  for Business Professionals*, Wiley, 2015 — [storytellingwithdata.com/books](https://www.storytellingwithdata.com/books)
